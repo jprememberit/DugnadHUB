@@ -1,15 +1,27 @@
-DugnadHub – Volunteer Management App Built with React Native (Expo) and
-Firebase
+# DugnadHub
+
+**Volunteer Management App built with React Native (Expo) and Firebase**
 
 DugnadHub is a mobile application designed to simplify the creation,
 organization, and participation in volunteer work (dugnad). The app
 provides users with a smooth workflow for discovering events, signing
-up, commenting, saving favorites, and—if organiser—creating and managing
+up, commenting, saving favorites, and if organiser creating and managing
 events.
+
+
+## Screenshots
+<p align="center">
+  <img src="Screenshots/Login.jpg" width="250" />
+  <img src="Screenshots/Register.jpg" width="250" />
+  <img src="Screenshots/Events.jpg" width="250" />
+  <img src="Screenshots/Eventview.jpg" width="250" />
+  <img src="Screenshots/Profile.jpg" width="250" />
+</p>
+
 
 ------------------------------------------------------------------------
 
-Installation & Setup
+## Installation & Setup
 
 Prerequisites: - Node.js (LTS recommended) - npm or yarn - Expo CLI
 (optional but useful) - Firebase project (Firestore, Authentication,
@@ -30,7 +42,7 @@ EXPO_PUBLIC_appId=your_app_id
 
 ------------------------------------------------------------------------
 
-Running the App
+## Running the App
 
 Start development server: npm start
 
@@ -42,7 +54,7 @@ Run in browser: npm run web
 
 ------------------------------------------------------------------------
 
- Implemented Core Requirements
+##  Implemented Core Requirements
 
 1. User Authentication
 
@@ -77,7 +89,7 @@ Run in browser: npm run web
 
 ---
 
- Extended Functionality Implemented
+##  Extended Functionality Implemented
 
 1. Search & Filter – Users can search events by title/description and filter by category.
 2. Error Handling – Custom error banner + alerts for authentication, uploads, and form errors.
@@ -102,13 +114,13 @@ Run in browser: npm run web
 
 ------------------------------------------------------------------------
 
-Testing Platforms
+## Testing Platforms
 
 Android Emulator: Tested | iOS Simulator: Tested | Expo Web: Tested
 
 ------------------------------------------------------------------------
 
-Firebase:
+##  Firebase:
 FireStore Databse - Rules:
 
 rules_version = '2';
@@ -147,7 +159,7 @@ allow read, write: if request.auth != null;
 }
 
 
-Notes
+## Notes
  The app runs with Firebase config loaded from .env using `process.env.EXPO_PUBLIC_`.
 
 
